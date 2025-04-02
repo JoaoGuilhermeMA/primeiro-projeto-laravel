@@ -15,6 +15,10 @@ class SiteController extends Controller
 
     function sobre()
     {
-        return view('sobre');
+        $desenvolvedor = "João Guilherme";
+        return view('sobre')->with('desenvolvedor', $desenvolvedor);
     }
 }
+// return view('sobre', [
+        //     'desenvolvedor' => $desenvolvedor
+        // ]);

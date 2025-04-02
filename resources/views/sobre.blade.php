@@ -9,6 +9,7 @@
 
 <body>
     <h1>Estou na pagina "sobre"</h1>
+    <h3> {{$desenvolvedor}}</h3>
 </body>
 
 </html>
